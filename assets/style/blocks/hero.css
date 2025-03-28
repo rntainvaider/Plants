@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 550px;
+    justify-content: space-evenly;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 111%;
+    color: var(--grey-dark);
+}
+
+.hero__description {
+    font-size: 20px;
+    line-height: 175%;
+    color: var(--grey-medium);
+}
+
+.hero__button {
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    padding: 12.5px 33px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.hero__button:hover {
+    background: var(--orange);
+    color: var(--white);
+}

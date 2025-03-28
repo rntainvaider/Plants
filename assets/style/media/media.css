@@ -1,0 +1,23 @@
+@media (max-width: 1023px) {
+    .header__list {
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        right: 90px;
+        top: 70px;
+        background: linear-gradient(to right,var(--light-lime), var(--pale-sage));
+        border-radius: 5px;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .burger__menu {
+        display: flex;
+    }
+
+    .header__menu-checked {
+        height: 225px;
+        padding: 20px;
+    }
+}

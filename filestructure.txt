@@ -54,8 +54,7 @@
         |-- fonts.css
         |-- index.css
         |-- media
-            |-- mobile.css
-            |-- tablet.css
+            |-- media.css
         |-- reset.css
         |-- variables.css
 |-- index.html

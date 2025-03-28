@@ -17,7 +17,6 @@
 
 .header__link:hover {
     color: var(--orange);
-    font-weight: 700;
 }
 
 /* BURGER MENU */
