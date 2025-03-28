@@ -1,0 +1,20 @@
+:root {
+    --bg-section: #EDF2EC;
+    --links-nav: #010201;
+
+    --green: #499A18;
+    --light-lime: #c1e698;
+    --pale-sage: #dce9d9;
+    --orange: #E06733;
+    --grey-dark: #717171;
+    --grey-medium: #636060;
+    --light-gray: #d9d9d9;
+    --light-sage: #d6e7d2;
+    --main-color: #e3e1d5;
+    --ash-gray: #aea1a1;
+    --white: #fff;
+
+    --font-family: "Inter", sans-serif;
+    --second-family: "Inika", sans-serif;
+    --third-family: "Roboto", sans-serif;
+}

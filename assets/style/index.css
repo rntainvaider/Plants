@@ -1,0 +1,7 @@
+@import url("/assets/style/reset.css");
+@import url("/assets/style/fonts.css");
+@import url("/assets/style/variables.css");
+@import url("/assets/style/base.css");
+@import url("/assets/style/blocks/module.css");
+@import url("/assets/style/media/tablet.css");
+@import url("/assets/style/media/mobile.css");
