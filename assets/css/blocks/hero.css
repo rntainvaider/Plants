@@ -46,7 +46,7 @@
 }
 
 @media (hover: hover) {
-    .header__button {
+    .hero__button:hover {
         background: var(--secondary);
         color: var(--white);
     }

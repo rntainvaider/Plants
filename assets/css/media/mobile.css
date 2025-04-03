@@ -25,4 +25,42 @@
     .hero__description {
         margin-bottom: 20px;
     }
+
+    /* ABOUT */
+
+    .about__wrapper {
+        padding: 30px 25px 31px 25px;
+        gap: 0;
+    }
+
+    .about__title {
+        font-size: 25px;
+        margin-bottom: 21.5px;
+    }
+
+    .about__description {
+        font-size: 15px;
+        line-height: 167%;
+        margin-bottom: 0;
+    }
+
+    /* SERVICE */
+
+    .service__wrapper {
+        padding: 30px 25px 27px 25px;
+    }
+
+    .service__title {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .service__buttons {
+        gap: 10px;
+    }
+
+    .service__list {
+        row-gap: 34px;
+        justify-content: center;
+    }
 }

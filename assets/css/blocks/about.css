@@ -1,0 +1,32 @@
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+    padding: 93px 50px;
+}
+
+.about__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--primary);
+    max-width: 460px;
+    margin-bottom: 40px;
+}
+
+.about__red {
+    color: var(--secondary);
+}
+
+.about__description {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-dark);
+    max-width: 605px;
+}
+
+.about__image {
+    width: 464px;
+    height: 479px;
+}

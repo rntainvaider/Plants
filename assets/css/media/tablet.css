@@ -62,4 +62,62 @@
         line-height: 156%;
         margin-bottom: 30px;
     }
+
+    /* ABOUT */
+
+    .about__wrapper {
+        flex-direction: column;
+        gap: 40;
+        padding: 40px 50px 95px 50px;
+    }
+
+    .about__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .about__description {
+        /* margin-bottom: 40px; */
+        max-width: 100%;
+    }
+
+    .about__image {
+        width: 250px;
+        height: 258px;
+    }
+
+    /* SERVICE */
+
+    .service__wrapper {
+        padding: 60px 50px 70pxpx 50px;
+    }
+
+    .service__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .service__title {
+        font-size: 35px;
+    }
+
+    .service__list {
+        row-gap: 38px;
+    }
+
+    .service__item {
+        max-width: 280px;
+    }
+
+    .service__inner {
+        padding: 10px 30px 18px 30px;
+    }
 }
