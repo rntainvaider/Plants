@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+
+    /* HEADER */
+
+    .header__wrapper {
+        padding: 36px 25px;
+    }
+
+    /* hero */
+
+    .hero__wrapper {
+        padding: 24px 25px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+
+    .hero__title {
+        font-size: 25px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+
+    .hero__description {
+        margin-bottom: 20px;
+    }
+}

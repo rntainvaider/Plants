@@ -1,0 +1,53 @@
+.hero {
+    background: var(--background-section);
+}
+
+.hero__image {
+    width: 448px;
+    height: 407px;
+}
+
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+    padding: 62.5px 50px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 111%;
+    color: var(--gray-light);
+    margin-bottom: 42px;
+    max-width: 550px;
+}
+
+.hero__green {
+    color: var(--primary);
+}
+
+.hero__description {
+    font-size: 20px;
+    line-height: 175%;
+    color: var(--gray-dark);
+    max-width: 525px;
+    margin-bottom: 48px;
+}
+
+.hero__button {
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+    background: var(--transparent);
+    cursor: pointer;
+    padding: 11px 26px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+@media (hover: hover) {
+    .header__button {
+        background: var(--secondary);
+        color: var(--white);
+    }
+}
