@@ -120,4 +120,29 @@
     .service__inner {
         padding: 10px 30px 18px 30px;
     }
+
+    /* PRICES */
+
+    .prices__title {
+        font-size: 35px;
+    }
+
+    .pices__title-left {
+        margin-bottom: 50px;
+    }
+
+    .prices__title-right {
+        font-size: 25px;
+        line-height: 140%;
+        max-width: 296px;
+    }
+
+    .prices__block-last {
+        margin-top: 99px;
+    }
+
+    .prices__button-contact {
+        margin-bottom: 34px;
+    }
+
 }
